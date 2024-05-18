@@ -1,0 +1,47 @@
+Algorithm:
+
+Start
+Initialize a list of days and their corresponding creation events.
+Read the day input from the user.
+Display the events and the verse for the input day.
+End
+
+Flowchart
+     +----------------------+
+     |      Start           |
+     +----------------------+
+              |
+              v
+     +----------------------+
+     | Initialize list of   |
+     | days and events      |
+     +----------------------+
+              |
+              v
+     +----------------------+
+     | Read day input       |
+     | from user            |
+     +----------------------+
+              |
+              v
+     +----------------------+
+     | Display events       |
+     | and verse            |
+     +----------------------+
+              |
+              v
+     +----------------------+
+     |        End           |
+     +----------------------+
+
+2. Pseudocode
+BEGIN
+    DEFINE creationEvents AS LIST OF (DAY, EVENTS, VERSES)
+    INPUT userDay
+    FOR EACH day IN creationEvents
+        IF day == userDay
+            PRINT day.events
+            PRINT day.verses
+        END IF
+    END FOR
+END
